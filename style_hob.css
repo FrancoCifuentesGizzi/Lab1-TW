@@ -20,12 +20,13 @@
 
 body {
 
-    background: #5A3F37;
+    background: #603813;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2C7744, #5A3F37);
+    background: -webkit-linear-gradient(to right, #b29f94, #603813);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2C7744, #5A3F37);
+    background: linear-gradient(to right, #b29f94, #603813);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 }
 
@@ -42,8 +43,8 @@ body {
     padding-right: 10%;
     padding-bottom: 20%;
     resize: both;
-    width: 130%;
-    height: 130%;
+    width: 160%;
+    height: 160%;
 }
 
 .texto {
