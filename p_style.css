@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.titulo {
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 90px;
+    color: rgba(12, 8, 8, 0.788);
+    font-family: 'Bebas Neue';
+    margin-bottom: 20px;
+}
+
+body {
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b368a, #c3143180);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b368a, #c3143180); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.par{
+    padding-top: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.contenedor{
+    padding-top: 10px;
+    width: 100%;
+    max-width: 2000px;
+    margin: auto;
+    overflow: hidden;
+}
+/* header */
+header{
+    width: 100%;
+    height: 250px;
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b368a, #c3143180), url("nyan-cat.gif");  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b368a, #c3143180), url("nyan-cat.gif"); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-attachment: fixed;
+    background-size: 100px;
+}
+
+.portafolio{
+    padding-top: 100px;
+    padding-left: 5%;
+}
+
+.galeria{
+    display: flex;
+    justify-content: space-evenly;
+}
+.imagen-cont{
+    width: 50%;
+    margin-bottom: 400px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.imagen-cont > img{
+    width: 80%;
+    height: 80%;
+    object-fit: conver;
+    display: block;
+}
+.hover-gal{
+    position: absolute;
+    width: 80%;
+    top: 0;
+    transform: scale(0);
+    background: hsla(342, 92%, 19%, 0.699);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hover-gal{
+    width: 80%;
+    height: 80%;
+}
+.hover-gal p{
+    color: aliceblue;
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+}
+
+.imagen-cont:hover .hover-gal{
+    transform: scale(1);
+}
